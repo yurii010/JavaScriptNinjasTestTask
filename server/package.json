@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "MODE=dev ts-node server.ts",
     "start": "MODE=prod node dist/server.js",
-    "build": "tsc && cp -r generated dist/generated",
+    "build": "npx prisma generate && tsc",
     "start:build": "npm run build && npm start",
     "use:seed": "cd prisma && node seed.js",
     "prisma:setup": "npx prisma migrate dev --name init && npx prisma generate"
