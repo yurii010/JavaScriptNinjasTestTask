@@ -125,6 +125,7 @@ export default function EditDialog({ open, onClose, superhero }: EditDialogProps
             <DialogTitle className="text-lg text-white text-center mb-4">Edit Superhero</DialogTitle>
 
             <div className="flex flex-col gap-3">
+                <label className="text-white text-sm">Nickname</label>
                 <input
                     type="text"
                     name="nickname"
@@ -136,6 +137,7 @@ export default function EditDialog({ open, onClose, superhero }: EditDialogProps
                 />
                 {errors.nickname && <span className="text-red-500 text-sm">{errors.nickname}</span>}
 
+                <label className="text-white text-sm">Real Name</label>
                 <input
                     type="text"
                     name="real_name"
@@ -147,6 +149,7 @@ export default function EditDialog({ open, onClose, superhero }: EditDialogProps
                 />
                 {errors.real_name && <span className="text-red-500 text-sm">{errors.real_name}</span>}
 
+                <label className="text-white text-sm">Origin Description</label>
                 <textarea
                     name="origin_description"
                     placeholder="Origin Description"
@@ -157,6 +160,7 @@ export default function EditDialog({ open, onClose, superhero }: EditDialogProps
                 />
                 {errors.origin_description && <span className="text-red-500 text-sm">{errors.origin_description}</span>}
 
+                <label className="text-white text-sm">Superpowers</label>
                 <input
                     type="text"
                     name="superpowers"
@@ -168,6 +172,7 @@ export default function EditDialog({ open, onClose, superhero }: EditDialogProps
                 />
                 {errors.superpowers && <span className="text-red-500 text-sm">{errors.superpowers}</span>}
 
+                <label className="text-white text-sm">Catch Phrase</label>
                 <input
                     type="text"
                     name="catch_phrase"
@@ -179,6 +184,7 @@ export default function EditDialog({ open, onClose, superhero }: EditDialogProps
                 />
                 {errors.catch_phrase && <span className="text-red-500 text-sm">{errors.catch_phrase}</span>}
 
+                <label className="text-white text-sm">Image URL</label>
                 <div className="flex gap-2">
                     <input
                         type="text"
