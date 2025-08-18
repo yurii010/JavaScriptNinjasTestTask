@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "MODE=dev ts-node server.ts",
+    "start": "MODE=prod node dist/server.js",
+    "build": "tsc && cp -r generated dist/generated",
+    "start:build": "npm run build && npm start",
+    "use:seed": "cd prisma && node seed.js",
+    "prisma:setup": "npx prisma migrate dev --name init && npx prisma generate"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "prisma": "^6.14.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "path-to-regexp": "^8.2.0",
+    "typescript": "^5.9.2"
+  }
+}
