@@ -1,12 +1,9 @@
 # JavaScriptNinjasTestTask
 
 Tech stack:
-
-Frontend: React, Typescript, Redux toolkit, TailwindCSS, MUI (for dialogs)
-
-Backend: NodeJS, Express, PostgresSQL, Prisma, Typescript
-
-Adaptive for mobile ✓
+- Frontend: React, Typescript, Redux toolkit, TailwindCSS, MUI (for dialogs)
+- Backend: NodeJS, Express, PostgresSQL, Prisma, Typescript
+- Adaptive for mobile ✓
 
 Рекомендована версія ноди 20
 
