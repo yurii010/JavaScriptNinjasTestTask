@@ -50,15 +50,15 @@ Tech stack:
 ### Review
 
 Back
-- single layer (controller)
-- image uploading missing
-+ db seed
+- single layer (controller) -
+- image uploading missing -
++ db seed +
 
 Front
-+ router
-+ state management
-- create/edit form duplicated
-+ CSS framework used
-+ service layer
++ router +
++ state management +
+- create/edit form duplicated -
++ CSS framework used +
++ service layer +
 
 # ANY QUESTIONS OR IDEAS, PLEASE CONTACT WITH ME
