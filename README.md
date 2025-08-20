@@ -47,4 +47,18 @@ Tech stack:
 - Можна було краще хендлити типи;
 - Можна було б покращити систему emptyState та loading. Під час розробки відмовився використовувати лоадінг, тому в коді можна побачити що він ніби використовувається, але насправді ні, тому це можна покращити;
 
+### Review
+
+Back
+- single layer (controller)
+- image uploading missing
++ db seed
+
+Front
++ router
++ state management
+- create/edit form duplicated
++ CSS framework used
++ service layer
+
 # ANY QUESTIONS OR IDEAS, PLEASE CONTACT WITH ME
