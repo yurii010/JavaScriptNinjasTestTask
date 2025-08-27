@@ -1,5 +1,9 @@
 # JavaScriptNinjasTestTask
 
+### TASK
+
+![Task](./task.jpg)
+
 Tech stack:
 - Frontend: React, Typescript, Redux toolkit, TailwindCSS, MUI (for dialogs)
 - Backend: NodeJS, Express, PostgresSQL, Prisma, Typescript
